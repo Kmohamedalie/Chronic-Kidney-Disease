@@ -1,37 +1,48 @@
-# Oxford-Parkinson-Diesease-Detection
+# Chronic Kidney Disease Detection
+![image](https://github.com/Kmohamedalie/Chronic-Kidney-Disease/assets/63104472/a2ccd4e9-38b6-4f55-adc3-5ed9c6ff1844)
 
-![image](https://github.com/Kmohamedalie/Oxford-Parkinson-Diesease-Detection/assets/63104472/a4673a89-67d5-40c8-b9b5-daf60e18293e)
 
 
-**Task:** The main aim of the data is to discriminate healthy people from those with PD, according to "status" column which is set to 0 for healthy and 1 for PD. 
+**Task:** Detect chronic kidney disease using support vector machine.
 
-**Dataset:**  <a href="https://archive.ics.uci.edu/dataset/174/parkinsons">UCI Machine Learning</a>
+**Dataset:**  <a href="https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease">UCI Machine Learning</a>
 
-**Notebook:** [Link](https://github.com/Kmohamedalie/Oxford-Parkinson-Diesease-Detection/blob/master/Notebook/Parkinson's%20Oxford%20-%20SnapML(Random%20Forest%20vs%20Boosting%20Machine).ipynb)
-| Algorithm | Recall | Precision | F1-score | Accuracy |
-| --------- |--------|-----------|----------|----------|
-|Baggig(RF) |  100%  |    85.29% |   85.55% |  87.18%  |
-|Boosting   |  100%  |    87.88% |   88.79% |  89.74%  |
+**Notebook:** [Link]()
+| Algorithm | Recall | Precision | F1-score | Accuracy |Jaccard Index |
+| --------- |--------|-----------|----------|----------|----------|
+|Support Vector Machine (linear) |  100%  |    100% |   100% |  100%  |100%  |
     
 
 <br>
 
 ### **Additional Information**
-This dataset is composed of a range of biomedical voice measurements from 31 people, 23 with Parkinson's disease (PD). Each column in the table is a particular voice measure, and each row corresponds one of 195 voice recording from these individuals ("name" column). 
-
-The data is in ASCII CSV format. The rows of the CSV file contain an instance corresponding to one voice recording. There are around six recordings per patient, the name of the patient is identified in the first column.For further information or to pass on comments, please contact Max Little (littlem '@' robots.ox.ac.uk).
+This dataset is composed of 400 instances with 25 attributes, it contains missing values as welll make almost 55%, so please make sure to use EDA before running any visualization of ML algorithm.
 <br>
 
 ### **Attributes**
-Matrix column entries (attributes): <br>
-name - ASCII subject name and recording number <br>
-MDVP:Fo(Hz) - Average vocal fundamental frequency <br>
-MDVP:Fhi(Hz) - Maximum vocal fundamental frequency <br>
-MDVP:Flo(Hz) - Minimum vocal fundamental frequency  <br>
-MDVP:Jitter(%),MDVP:Jitter(Abs),MDVP:RAP,MDVP:PPQ,Jitter:DDP - Several measures of variation in fundamental frequency <br>
-MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - Several measures of variation in amplitude <br>
-NHR,HNR - Two measures of ratio of noise to tonal components in the voice     <br>
-status - Health status of the subject (one) - Parkinson's, (zero) - healthy  <br>
-RPDE,D2 - Two nonlinear dynamical complexity measures                          <br>
-DFA - Signal fractal scaling exponent  <br>
-spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation
+We use the following representation to collect the dataset
+            age		-	age	              <br>
+			bp		-	blood pressure    <br>
+			sg		-	specific gravity  <br>
+			al		-   	albumin       <br>
+			su		-	sugar             <br>            
+			rbc		-	red blood cells   <br>
+			pc		-	pus cell          <br>
+			pcc		-	pus cell clumps   <br>
+			ba		-	bacteria          <br>
+			bgr		-	blood glucose random   <br>
+			bu		-	blood urea             <br>
+			sc		-	serum creatinine       <br>
+			sod		-	sodium                 <br>
+			pot		-	potassium              <br>
+			hemo		-	hemoglobin         <br>
+			pcv		-	packed cell volume     <br>
+			wc		-	white blood cell count <br>
+			rc		-	red blood cell count   <br>
+			htn		-	hypertension           <br>
+			dm		-	diabetes mellitus      <br>
+			cad		-	coronary artery disease <br>
+			appet		-	appetite            <br>
+			pe		-	pedal edema             <br>
+			ane		-	anemia                   <br>
+			class - (ckd,notckd)	            <br>
