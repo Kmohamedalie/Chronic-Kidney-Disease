@@ -7,7 +7,7 @@
 
 **Dataset:**  <a href="https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease">UCI Machine Learning</a>
 
-**Notebook:** [Link]()
+**Notebook:** [Link](https://github.com/Kmohamedalie/Chronic-Kidney-Disease/blob/master/Notebook/Chronic%20KIdney%20Disease%20svm-%20SnapML.ipynb)
 | Algorithm | Recall | Precision | F1-score | Accuracy |Jaccard Index |
 | --------- |--------|-----------|----------|----------|----------|
 |Support Vector Machine (linear) |  100%  |    100% |   100% |  100%  |100%  |
