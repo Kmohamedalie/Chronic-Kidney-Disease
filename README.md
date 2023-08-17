@@ -15,7 +15,7 @@
 
 <br>
 
-### **Additional Information**
+### **Additional Information about the dataset**
 This dataset is composed of 400 instances with 25 attributes, it contains missing values as welll make almost 55%, so please make sure to use EDA before running any visualization of ML algorithm.
 <br>
 
