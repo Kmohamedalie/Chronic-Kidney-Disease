@@ -1,7 +1,18 @@
 # Chronic Kidney Disease Detection
-![image](https://github.com/Kmohamedalie/Chronic-Kidney-Disease/assets/63104472/a2ccd4e9-38b6-4f55-adc3-5ed9c6ff1844)
+<!-- ![image](https://github.com/Kmohamedalie/Chronic-Kidney-Disease/assets/63104472/a2ccd4e9-38b6-4f55-adc3-5ed9c6ff1844) -->
 
 
+
+
+
+
+https://github.com/Kmohamedalie/Chronic-Kidney-Disease/assets/63104472/071f080b-46af-48f0-82c9-b8835e26db3f
+
+
+
+
+**Source:** [Centers for Disease Control](https://www.youtube.com/watch?v=FdxGclFztC0)
+**more youtbe videos:** [NHS Imperial College Health](https://www.youtube.com/watch?v=tyWgdBYBttc)
 
 **Task:** Detect chronic kidney disease using support vector machine.
 
