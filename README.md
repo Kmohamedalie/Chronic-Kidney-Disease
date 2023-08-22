@@ -14,7 +14,7 @@ https://github.com/Kmohamedalie/Chronic-Kidney-Disease/assets/63104472/071f080b-
 **Source:** [Centers for Disease Control](https://www.youtube.com/watch?v=FdxGclFztC0)
 **more youtbe videos:** [NHS Imperial College Health](https://www.youtube.com/watch?v=tyWgdBYBttc)
 
-**Task:** Detect chronic kidney disease using support vector machine.
+**Task:** Detect chronic kidney disease using support vector machine, the class is binary with the value (ckd,notckd). Where cdk means the presence of Chronic Kidney disease and not 'cdk' means healthy.
 
 **Dataset:**  <a href="https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease">UCI Machine Learning</a>
 
